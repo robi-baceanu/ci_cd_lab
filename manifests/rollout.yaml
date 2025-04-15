@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/robi-baceanu/ci_cd_lab@sha256:46e23a277e470eac558a410732ed6618c4cbd7ec2c1b6d91c8cb7ad155949e4b
+          image: ghcr.io/robi-baceanu/ci_cd_lab:latest
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
